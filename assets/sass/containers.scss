@@ -1,0 +1,37 @@
+//  --------------------------------------------------
+//  Containers styles
+
+//  - styles for containers
+
+//  ==================================================
+    .container-body {
+      position: relative;
+    }
+    .container-fullWidth {
+      width: 100%;
+      height: auto;
+    }
+
+    .container\(33\){
+      width: 33%;
+      height: auto;
+      display: inline-block;
+      position: relative;
+      margin: 0 auto;
+    }
+
+    .section\(858\) {
+      position: relative;
+      height: auto;
+      width: 100%;
+    }
+
+    .container-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      width: 100%;
+      padding: 0 32px;
+    }

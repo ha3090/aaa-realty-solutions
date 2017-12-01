@@ -1,0 +1,21 @@
+//  --------------------------------------------------
+//  grid-layout styles
+
+//  - styles for grid-layout
+
+//  ==================================================
+
+    .grid-layout-fluid {
+      max-width: 1200px;
+      min-width: 300px;
+      width: 100%;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 4px;
+      margin-bottom: 4px;
+
+      @media (min-width: 400px) {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      }
+    }
