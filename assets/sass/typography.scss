@@ -71,6 +71,13 @@
       text-transform: uppercase;
     }
 
+    .h\(20\) {
+      font-family: 'Pathway Gothic One', sans-serif;
+      font-size: 20px;
+      line-height: 24px;
+      text-transform: uppercase;
+    }
+
     .h-background\(24\) {
       font-family: 'Pathway Gothic One', sans-serif;
       font-size: 24px;
@@ -121,6 +128,20 @@
       font-family: 'Lato', sans-serif;
       font-size: 20px;
       line-height: 28px;
+      font-weight: 400;
+    }
+
+    .p\(14\){
+      font-family: 'Lato', sans-serif;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 400;
+    }
+
+    .p\(10\){
+      font-family: 'Lato', sans-serif;
+      font-size: 10px;
+      line-height: 16px;
       font-weight: 400;
     }
 

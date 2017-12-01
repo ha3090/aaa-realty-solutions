@@ -26,4 +26,10 @@
   width: 100%;
   padding: 0 32px; }
 
+.container-footer {
+  background-color: #222;
+  height: 80px;
+  width: 100%;
+  padding: 16px; }
+
 /*# sourceMappingURL=containers.css.map */
